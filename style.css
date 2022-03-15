@@ -1,0 +1,95 @@
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 115px;
+    padding: 0px 100px;
+}
+.logo-pesquisa {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.input-pesquisa {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 34px;
+    border: none;
+    background-color: #F5F5F5;
+}
+.botao-login {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    padding: 10px 50px;
+    background: transparent;
+    border: 1px solid #2A7AE4;
+    color: #2A7AE4;
+}
+.icon-lupa-web {
+    position: absolute;
+    right: 15px;
+    top: calc((100% - 16px) / 2);
+
+}
+
+/* TABLET */
+@media screen and (max-width: 900px){
+    .cabecalho {
+        padding: 0px 20px;
+    }
+}
+
+@media screen and (max-width: 720){
+
+}
+.imagem-banner{
+    width: 100vw;
+}
+.banner {
+    position: relative;
+}
+.conteudo-banner{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: absolute;
+    bottom: 35px;
+    left: 60px;
+}
+.titulo-banner{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+    color: #ffffff;
+}
+.banner p {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #ffffff;
+}
+.botao-ver-consoles {
+    width: 130px;
+    height: 50px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    background-color: #2A7AE4;
+    color: #ffffff;
+    border: none;
+
+}
+
+
+
+
+.oculto {
+    display: none;
+}
