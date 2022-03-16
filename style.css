@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+    font-family: 'Raleway', sans-serif;
+}
 .cabecalho {
     display: flex;
     flex-direction: row;
@@ -35,6 +39,9 @@
     top: calc((100% - 16px) / 2);
 
 }
+.icon-lupa-mobile {
+    display: none;
+}
 
 /* TABLET */
 @media screen and (max-width: 900px){
@@ -43,10 +50,17 @@
     }
 }
 
-@media screen and (max-width: 720){
+/* MOBILE */
 
+@media screen and (max-width: 720px){
+    .input-pesquisa-web {
+        display: none;
+    }
+    .icon-lupa-mobile{
+        display: block;
+    }
 }
-.imagem-banner{
+.imagem-banner-web{
     width: 100vw;
 }
 .banner {
@@ -61,14 +75,12 @@
     left: 60px;
 }
 .titulo-banner{
-    font-family: 'Raleway';
     font-weight: 700;
     font-size: 52px;
     line-height: 61px;
     color: #ffffff;
 }
 .banner p {
-    font-family: 'Raleway';
     font-weight: 700;
     font-size: 22px;
     line-height: 26px;
@@ -84,12 +96,58 @@
     background-color: #2A7AE4;
     color: #ffffff;
     border: none;
-
+}
+.galeria{
+    display: grid;
+    margin: 50px calc((100% - 1156px) / 2);
+    gap: 20px;
+    grid-template-columns: repeat(6, 1fr) ;
+}
+.titulo-galeria{
+    grid-column: span 5;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+}
+.ver-tudo{
+    justify-self: end;
+    align-self: center;
+}
+.botao-ver-tudo{
+    background: transparent;
+    border: none;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2A7AE4;
+}
+.nome-produto{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #464646;
+    margin: 5px 0;
+}
+.preco-produto{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    margin-bottom: 5px;
+}
+.botao-ver-produto{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2A7AE4;
+    background: transparent;
+    padding-left: 0;
+    border: none;
 }
 
 
 
 
-.oculto {
-    display: none;
-}
