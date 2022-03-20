@@ -147,7 +147,68 @@ body {
     padding-left: 0;
     border: none;
 }
-
-
-
+.rodape{
+    background: #EAF2FD;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 100px;
+    padding: 50px 50px;
+}
+.navegacao{
+    display: flex;
+    flex-direction: column;
+}
+.navegacao a{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.5rem;
+    text-decoration: none;
+    color: rgba(70, 70, 70, 1);
+}
+.fale-conosco{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+.titulo-fale-conosco{
+    font-size: 16px;
+    font-weight: 700;
+    margin: 5px 0px;
+}
+.input-rodape-nome, .input-rodape-mensagem {
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 15px;
+    outline: none;
+    box-shadow: 1px 1px #C8C8C8;
+}
+.caixa-input-nome{
+    position: relative;
+}
+.input-rodape-nome {
+    padding: 25px 10px 10px 10px;
+}
+.label-input-nome{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-size: 14px;
+    color: rgb(145, 145, 145);
+}
+.input-rodape-mensagem{
+    padding: 10px;
+}
+.enviar-formulario-fale-conosco{
+    width: 30%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    background: rgba(42, 122, 228, 1);
+    border: none;
+}
 
