@@ -1,0 +1,64 @@
+.banner {
+  position: relative;
+}
+.banner-web{
+  width: 100%;
+}
+.content-banner{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  position: absolute;
+  bottom: 35px;
+  left: 60px;
+}
+.title-banner{
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 61px;
+  color: #ffffff;
+}
+.banner p {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  color: #ffffff;
+}
+.button-see-consoles {
+  width: 130px;
+  height: 50px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  background-color: #2A7AE4;
+  color: #ffffff;
+  border: none;
+}
+.gallery{
+  display: grid;
+  margin: 50px calc((100% - 1156px) / 2);
+  gap: 20px;
+  grid-template-columns: repeat(6, 1fr) ;
+}
+.title-gallery{
+  grid-column: span 5;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #464646;
+}
+.see-all{
+  justify-self: end;
+  align-self: center;
+  display: flex;
+  align-items: center;
+}
+.button-see-all{
+  background: transparent;
+  border: none;
+  margin-right: 5px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #2A7AE4;
+}

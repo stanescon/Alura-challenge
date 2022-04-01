@@ -1,0 +1,64 @@
+.footer{
+  background: #EAF2FD;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 100px;
+  padding: 50px 50px;
+}
+.navigation{
+  display: flex;
+  flex-direction: column;
+}
+.navigation a{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5rem;
+  text-decoration: none;
+  color: rgba(70, 70, 70, 1);
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+.title-contact{
+  font-size: 16px;
+  font-weight: 700;
+  margin: 5px 0px;
+}
+.input-name, .input-message {
+  width: 100%;
+  border: none;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 15px;
+  outline: none;
+  box-shadow: 1px 1px #C8C8C8;
+}
+.box-input-name{
+  position: relative;
+}
+.input-name {
+  padding: 25px 10px 10px 10px;
+}
+.label-input-name{
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  font-size: 14px;
+  color: rgb(145, 145, 145);
+}
+.input-message{
+  padding: 10px;
+}
+.send-form{
+  width: 30%;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff;
+  background: rgba(42, 122, 228, 1);
+  border: none;
+}

@@ -1,0 +1,23 @@
+.name{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #464646;
+  margin: 5px 0;
+}
+.price{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #464646;
+  margin-bottom: 5px;
+}
+.button-see-more{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #2A7AE4;
+  background: transparent;
+  padding-left: 0;
+  border: none;
+}
