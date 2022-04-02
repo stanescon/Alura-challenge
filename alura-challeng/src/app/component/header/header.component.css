@@ -7,13 +7,20 @@
   height: 115px;
   padding: 0px 100px;
 }
+@media screen and (max-width: 900px){
+  .header {
+    justify-content: center;
+    gap: 30px;
+    padding: 0px;
+  }
+}
 .logo-search {
   position: relative;
   display: flex;
   align-items: center;
   gap: 30px;
 }
-.input-search {
+.input-search, .input-search-mobile {
   width: 300px;
   padding: 10px;
   font-size: 16px;
@@ -32,4 +39,20 @@
   position: absolute;
   right: 15px;
   top: calc((100% - 16px) / 2);
+}
+.search-mobile{
+  position: relative;
+}
+.input-search-mobile{
+  position: absolute;
+  right: -15px;
+  top: -19.5px;
+  padding-right: 35px;
+  transition: 5s;
+}
+.icon-lupa-mobile{
+  position: absolute;
+  top: -10px;
+  right: -5px;
+  z-index: 1;
 }

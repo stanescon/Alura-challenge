@@ -1,5 +1,6 @@
 <div class="banner">
-  <img src="assets/banner-image.png" class="banner-web">
+  <img *ngIf="!mobile" src="assets/banner-image.png" class="banner-web">
+  <img *ngIf="mobile" src="assets/banner-mobile.jpg" class="banner-mobile">
   <div class="content-banner">
       <h1 class="title-banner">Dezembro Promocional</h1>
       <p>Produtos selecionados com 33% de desconto</p>

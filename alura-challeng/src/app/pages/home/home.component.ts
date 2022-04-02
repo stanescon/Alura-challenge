@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  mobile = false
+
   galleryStarWars = [
     {
       name: "Produto XYZ",
@@ -111,6 +113,9 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    if(window.innerWidth < 900){
+      this.mobile = true
+    }
   }
 
 }

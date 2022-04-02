@@ -7,9 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  mobile = false
+  searchMobile = false
+
   constructor() { }
 
   ngOnInit(): void {
+    if(window.innerWidth < 900){
+      this.mobile = true
+    }
+  }
+
+  buscarMobile(){
+    this.searchMobile = true
   }
 
 }

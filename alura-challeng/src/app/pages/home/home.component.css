@@ -1,7 +1,7 @@
 .banner {
   position: relative;
 }
-.banner-web{
+.banner-web, .banner-mobile{
   width: 100%;
 }
 .content-banner{
@@ -61,4 +61,21 @@
   font-size: 16px;
   line-height: 19px;
   color: #2A7AE4;
+}
+
+@media screen and (max-width: 900px){
+  .gallery{
+    grid-template-columns: 1fr 1fr ;
+    margin: 30px 15px;
+  }
+  .title-gallery{
+    grid-column: span 1;
+  }
+  .see-all{
+    margin-right: 10px;
+  }
+  .content-banner{
+    left: 15px;
+    bottom: 20px;
+  }
 }
