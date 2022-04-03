@@ -32,3 +32,12 @@
   background: rgba(42, 122, 228, 1);
   color: #ffffff;
 }
+
+@media screen and (max-width: 900px){
+  .login{
+    padding: 100px 0px;
+  }
+  .input, .button-login{
+    width: 80%;
+  }
+}

@@ -1,38 +1,26 @@
-.banner {
-  position: relative;
-}
-.banner-web, .banner-mobile{
-  width: 100%;
-}
-.content-banner{
+.content-product {
   display: flex;
-  flex-direction: column;
+  align-items: center;
   gap: 15px;
-  position: absolute;
-  bottom: 35px;
-  left: 60px;
+  margin: 50px calc((100% - 1156px) / 2);
 }
-.title-banner{
-  font-weight: 700;
-  font-size: 52px;
-  line-height: 61px;
-  color: #ffffff;
-}
-.banner p {
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 26px;
-  color: #ffffff;
-}
-.button-see-consoles {
-  width: 130px;
-  height: 50px;
+.description{
+  font-size: 16px;
   font-weight: 400;
+  line-height: 19px;
+  color: rgba(70, 70, 70, 1);
+}
+.title{
+  font-size: 52px;
+  font-weight: 500;
+  color: rgba(70, 70, 70, 1);
+}
+.price{
+  font-weight: 700;
   font-size: 16px;
   line-height: 19px;
-  background-color: #2A7AE4;
-  color: #ffffff;
-  border: none;
+  color: #464646;
+  margin-bottom: 5px;
 }
 .gallery{
   display: grid;
@@ -64,13 +52,6 @@
 }
 
 @media screen and (max-width: 900px){
-  .title-banner{
-    font-size: 32px;
-    height: 35px;
-  }
-  .banner p{
-    font-size: 18px;
-  }
   .gallery{
     grid-template-columns: 1fr 1fr ;
     margin: 30px 15px;
@@ -80,9 +61,5 @@
   }
   .see-all{
     margin-right: 10px;
-  }
-  .content-banner{
-    left: 15px;
-    bottom: 20px;
   }
 }
